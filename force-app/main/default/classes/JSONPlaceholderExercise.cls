@@ -12,6 +12,7 @@ public class JSONPlaceholderExercise {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint(BASE_URL + '/posts/' + postId);
+        request.setMethod('GET');
         // 1. Create a new HTTP request
         // 2. Set the endpoint URL using BASE_URL + '/posts/' + postId
         // 3. Set the HTTP method to 'GET'
